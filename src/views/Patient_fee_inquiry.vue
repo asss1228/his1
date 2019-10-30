@@ -179,6 +179,9 @@
         margin-left: 30px;
 
     }
+    p{
+        display: flex;
+    }
 
 
 </style>

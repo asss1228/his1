@@ -161,6 +161,9 @@
         background-color: #409EFF;
         border: #409EFF;
     }
+    p{
+        display: flex;
+    }
 
 
 </style>
