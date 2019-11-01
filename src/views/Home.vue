@@ -60,7 +60,7 @@
                                     <span>医技处置*</span>
                                 </template>
                                 <el-menu-item-group>
-                                    <el-menu-item index="3-1">患者检验*</el-menu-item>
+                                    <el-menu-item index="3-1" @click="dolink9">患者检验*</el-menu-item>
                                     <el-menu-item index="3-2">患者检查*</el-menu-item>
                                     <el-menu-item index="3-3">患者处置*</el-menu-item>
                                     <el-menu-item index="3-4">医技管理*</el-menu-item>
@@ -137,7 +137,7 @@
 
 <script>
     export default {
-        name: "Home1",
+        name: "Home",
         methods: {
             handleOpen(key, keyPath) {
                 console.log(key, keyPath);
@@ -170,7 +170,7 @@
                 this.$router.push('/about')
             },
             dolink9:function () {
-                this.$router.push('/about')
+                this.$router.push('/patient_examination')
             }
         }
 

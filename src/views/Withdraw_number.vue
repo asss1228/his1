@@ -161,7 +161,7 @@
     }
 
     .guahao {
-        width: 100%;
+        width: 98%;
         margin-left: 30px;
 
     }
